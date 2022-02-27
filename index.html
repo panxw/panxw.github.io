@@ -1,0 +1,32 @@
+---
+layout: default
+title: Android posts
+---
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="/">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about.html">About</a>
+  </li>
+</ul>
+
+<br/>
+<div class="card">
+  <div class="card-header">
+    Archives <div style="float:right"><a href="/archives.html"><u>More..</u></a></div>
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      {% for post in site.posts limit:10 %}
+      {% if post.url contains "index.html" %}
+      {% else %}
+      <li class="list-group-item">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <span style="float:right;color:#cccccc;font-size:10px;text-align:right;">{{ post.date | date:"%Y-%m-%d" }}</span>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
