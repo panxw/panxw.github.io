@@ -36,6 +36,8 @@ cd WORKING_DIRECTORY
 ```
 
 ```
-repo init -u https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/manifest -b android-5.1.0_r1 #android-9.0.0_r61
+repo init -u https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/manifest -b android-5.1.0_r1
 repo sync
 ```
+
+branches view: https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
