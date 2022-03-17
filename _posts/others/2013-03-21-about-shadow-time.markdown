@@ -2,7 +2,7 @@
 layout: post
 title: "读《暗时间》一书"
 date: 2013-03-21 20:05:01
-category: "read"
+category: "others"
 tags: [暗时间]
 ---
 #### 1.前不久读了《暗时间》一书，书中列举了暗时间的8个方面：  

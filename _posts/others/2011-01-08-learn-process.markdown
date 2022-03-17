@@ -2,7 +2,7 @@
 layout: post
 title: "学习方法及过程"
 date: 2011-01-08 20:05:01
-category: "read"
+category: "others"
 tags: [学习]
 ---
 书摘，学习方法及过程：  

@@ -2,7 +2,7 @@
 layout: page
 title: Archives
 ---
-<ul>
+<ul class="list-group list-group-flush">
 {% for post in site.posts %}
   {% if post.url contains "index.html" %}
       {% else %}
@@ -11,7 +11,7 @@ title: Archives
     {% assign year = y %}
     <h4>{{ post.date | date: '%Y' }}</h4> 
   {% endif %}
-  <li>
+  <li class="list-group-item">
 	<span>{{ post.date | date:"%Y-%m-%d" }}</span>&raquo;
 	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li> 

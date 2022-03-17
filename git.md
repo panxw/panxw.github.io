@@ -1,12 +1,10 @@
 ---
-layout: page
-title: "Read posts"
-date: 2010-01-01 20:01:01
-category: "read"
-tags: [Read]
+layout: category 
+title: "Git"
+category: "Git"
 ---
 <ul class="list-group list-group-flush">
-    {% for post in site.categories.read %}
+    {% for post in site.categories.git %}
       {% if post.url contains "index.html" %}
       {% else %}
     <li class="list-group-item">

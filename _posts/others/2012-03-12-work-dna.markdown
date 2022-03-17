@@ -2,7 +2,7 @@
 layout: post
 title: "工作DNA警句"
 date: 2012-03-12 20:05:01
-category: "read"
+category: "others"
 tags: [阅读,工作DNA]
 ---
 在一本名为《工作DNA》的书中写的几方面。我觉得蛮有道理，于是写摘下：  

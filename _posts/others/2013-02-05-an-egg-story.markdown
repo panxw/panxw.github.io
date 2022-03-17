@@ -2,7 +2,7 @@
 layout: post
 title: "一个鸡蛋的故事"
 date: 2013-02-05 20:05:01
-category: "read"
+category: "others"
 tags: [哲理]
 ---
 摘自某文摘一段话：  

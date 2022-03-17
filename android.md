@@ -1,9 +1,7 @@
 ---
-layout: page 
-title: "Android posts"
-date: 2010-01-01 20:01:01
-category: "android"
-tags: [Android]
+layout: category 
+title: "Android"
+category: "Android"
 ---
 <ul class="list-group list-group-flush">
     {% for post in site.categories.android %}

@@ -1,12 +1,10 @@
 ---
-layout: page
-title: "Program posts"
-date: 2010-01-01 20:01:01
-category: "program"
-tags: [Program]
+layout: category 
+title: "Linux"
+category: "Linux"
 ---
 <ul class="list-group list-group-flush">
-    {% for post in site.categories.program %}
+    {% for post in site.categories.linux %}
       {% if post.url contains "index.html" %}
       {% else %}
     <li class="list-group-item">

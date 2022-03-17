@@ -2,7 +2,7 @@
 layout: post
 title: "养气歌"
 date: 2011-08-01 20:05:01
-category: "read"
+category: "others"
 tags: [阅读,养气歌]
 ---
 #### 养气歌

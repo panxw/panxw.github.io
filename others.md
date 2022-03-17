@@ -1,12 +1,10 @@
 ---
-layout: page
-title: "Web posts"
-date: 2010-01-01 20:01:01
-category: "web"
-tags: [Web]
+layout: category 
+title: "Others"
+category: "Others"
 ---
 <ul class="list-group list-group-flush">
-    {% for post in site.categories.web %}
+    {% for post in site.categories.others %}
       {% if post.url contains "index.html" %}
       {% else %}
     <li class="list-group-item">

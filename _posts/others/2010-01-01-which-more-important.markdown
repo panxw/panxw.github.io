@@ -2,7 +2,7 @@
 layout: post
 title: "人生什么更重要？"
 date: 2010-01-01 20:05:01
-category: "read"
+category: "others"
 tags: [人生]
 ---
 #### 哪个更重要？

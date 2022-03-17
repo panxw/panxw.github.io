@@ -2,7 +2,7 @@
 layout: post
 title: "IT Enginner or Code Typist"
 date: 2011-03-01 20:05:01
-category: "read"
+category: "others"
 tags: [Enginner]
 ---
 曾看过这么一句话：“做一个工程师(Enginner or Programdesigner)，而不仅是一个程序工人(Code Typist)”。  

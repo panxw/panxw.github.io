@@ -2,7 +2,7 @@
 layout: post
 title: "提升自我的方法"
 date: 2013-04-06 20:05:01
-category: "read"
+category: "others"
 tags: [自我提升]
 ---
 如下方面：  

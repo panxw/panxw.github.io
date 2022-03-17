@@ -2,7 +2,7 @@
 layout: post
 title: "人际交往的六种模式"
 date: 2013-05-15 20:05:01
-category: "read"
+category: "others"
 tags: [人际交往]
 ---
 人际交往的六种模式，摘自高效能人士的7个习惯。分别是：  

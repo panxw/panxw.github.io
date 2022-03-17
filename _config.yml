@@ -3,7 +3,7 @@ url: http://trade.youth168.com
 description: None
 
 permalink: /:categories/:title.html
-
+category_names: ['Home','Android','Program','Linux','Git','Web','Others']
 #gems: [jekyll-paginate]
 highlighter: pygments
 paginate: 20

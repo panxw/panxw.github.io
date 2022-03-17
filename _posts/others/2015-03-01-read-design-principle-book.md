@@ -2,7 +2,7 @@
 layout: post
 title: "写给大家看的设计书[书摘]"
 date: 2015-03-01 20:05:01
-category: "read"
+category: "others"
 tags: [设计,设计书]
 ---
 写给大家看的设计书，作者：Robin Williams[美]。  
