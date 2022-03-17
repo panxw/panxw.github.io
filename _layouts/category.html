@@ -8,7 +8,9 @@ layout: default
       {% else %} 
 	{% assign cat_url=category|downcase %}
       {% endif %}
-      {% if page.category == category %}
+      {% assign c1=category|downcase %}
+      {% assign c2=page.category|downcase%}
+      {% if c1==c2 %}
   <li class="nav-item">
     <a class="nav-link active" href="/{{ cat_url }}.html">{{ category }}</a>
   </li>

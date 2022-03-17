@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+category: About
 ---
 Panxw，80后，男，现居武汉。  
 
