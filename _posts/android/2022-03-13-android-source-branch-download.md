@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "下载Android指定版本源码"
+title: "Steps to download certain branch Android source"
 date: 2022-03-13 20:05:01
 category: android
 tags: [Android, source, repo]
