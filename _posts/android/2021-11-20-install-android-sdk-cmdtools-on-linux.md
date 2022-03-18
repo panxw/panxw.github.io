@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Install android sdk cmdtools on Linux"
-date: 2022-03-16 20:05:01
+date: 2021-11-20 20:05:01
 category: android
 tags: [Android, cmdtools, Ubuntu, Linux]
 ---
