@@ -5,11 +5,13 @@ category: About
 ---
 Panxw，80后，男，现居武汉。  
 
-2011年起从事Android终端应用研发，有3年手机App，7年OTT-App研发经历。  
+机械设计制造及其自动化本科，计算机应用技术硕士，嵌入式系统研究方向。  
 
-主要从事Android原生Apk开发，技术栈涉及Java，Kotlin，Gralde，NDK，C等，负责过不少Apk架构。  
+读研期间（2010年）接触Android应用开发。毕业后一直从事Android终端应用研发，有3年手机App，7年OTT-App研发经历。  
 
-参与过一些IOS，React Native，Flutter，微信小程序等项目开发，主负责SDK或模块开发。  
+主要从事Android原生Apk开发，技术栈涉及Java，Kotlin，Gralde，NDK，JNI等，负责过不少企业级Apk架构。  
+
+参与过一些IOS，React Native，Flutter，微信小程序等项目开发，负责SDK或模块编码开发。  
 
 使用Java/Servlet/MyBatis，Python/Flask做过后台接口，或基于bjui做过管理后台。  
 
