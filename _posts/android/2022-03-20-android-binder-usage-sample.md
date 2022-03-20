@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Android无处不在的Binder身影。"
-date: 2022-03-20 20:05:01
+date: 2022-03-20 00:00:00
 category: android
 tags: [Android, Binder, Proxy, Stub]
 ---
