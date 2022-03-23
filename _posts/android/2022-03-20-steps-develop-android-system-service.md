@@ -5,7 +5,7 @@ date: 2022-03-20 00:00:00
 category: android
 tags: [Android, Binder, AIDL, Service]
 ---
-1.定义AIDL背服务接口，如IHelloService.aidl，生成模板代码IHelloService.java。 也可以手写继承Bidner类，会麻烦点。  
+1.AIDL定义服务接口，如IHelloService.aidl，生成模板代码IHelloService.java。 也可以手写继承Bidner类，会麻烦点。  
 
 2.实现服务类MyHelloService，用服务类继承IHelloService.Stub类。实现之前声明接口。  
 
