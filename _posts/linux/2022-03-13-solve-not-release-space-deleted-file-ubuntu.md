@@ -2,7 +2,7 @@
 layout: post
 title: "解决ubuntu删除文件不释放空间的问题"
 date: 2022-03-13 20:01:01
-category: web
+category: linux
 tags: [ubuntu, vdisk, diskpart]
 ---
 It's not reasonable for ubuntu(subsystem) not release space after deleting file. How to solve this problem?
