@@ -6,9 +6,9 @@ category: "android"
 tags: [Android, pms, process, summary]
 ---
 #### 1.调用过程。
-App层使用pms服务流程，先通过context的getPackageManager取得PackageManger对象后，再调用PackageManger相关操作方法完成相应处理。
+App层使用pms服务流程，先通过Context的getPackageManager取得PackageManger对象后，再调用PackageManger相关操作方法完成相应处理。
 
-而这个context实质是ContextImpl，在ActivityThread中创建应用时生成的。这个类提供了getPackageManager()，内部通过ActivityThread.getPackageManager()获得IPackageManager对象，再生成ApplicationPackageManager对象，返回给APP层。
+而这个Context实质是ContextImpl，在ActivityThread中创建应用时生成的。这个类提供了getPackageManager()，内部通过ActivityThread.getPackageManager()获得IPackageManager对象，再生成ApplicationPackageManager对象，返回给APP层。
 
 PackageManger类是一个抽象类，ApplicationPackageManager继承自PackageManger，使用PMS服务对象进行封装，进而间接操作PMS服务，完成相应操作。
 
