@@ -5,7 +5,7 @@ title: Panxw's Blog
 ---
     <ul class="list-group list-group-flush">
       {% for post in site.posts limit:12 %}
-      {% if post.url contains "index.html" %}
+      {% if post.url contains "index.html" or post.category != "android" %}
       {% else %}
       <li class="list-group-item">
               <a href="{{ post.url }}">{{ post.title }}</a>
