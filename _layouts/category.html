@@ -3,10 +3,10 @@ layout: default
 ---
 <ul class="nav nav-tabs">{% for category in site.category_names %}{% if category == 'Home' %}{% assign cat_url='index'%}{% else %}{% assign cat_url=category|downcase %}{% endif %}{% assign c1=category|downcase %}{% assign c2=page.category|downcase%}{% if c1==c2 %}
   <li class="nav-item">
-    <a class="nav-link active" href="{{ cat_url }}.html">{{ category }}</a>
+    <a class="nav-link active" href="/{{ cat_url }}.html">{{ category }}</a>
   </li>{% else %}
   <li class="nav-item">
-    <a class="nav-link" href="{{ cat_url }}.html">{{ category }}</a>
+    <a class="nav-link" href="/{{ cat_url }}.html">{{ category }}</a>
   </li>{% endif %}{% endfor %}
   </li>
 </ul>
