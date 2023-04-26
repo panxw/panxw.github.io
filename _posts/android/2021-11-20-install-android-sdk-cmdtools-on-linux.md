@@ -36,7 +36,7 @@ set sdk_root and install modules:
 cd latest/bin/
 ./sdkmanager --sdk_root=~/android_sdk
 ./sdkmanager --install "platforms;android-26;"
-./sdkmanager --install "build-tools:28.0.3"
+./sdkmanager --install "build-tools;28.0.3"
 ```
 
 build-tools or platforms will be installed to ~/android_sdk
