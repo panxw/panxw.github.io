@@ -4,12 +4,14 @@ title: About
 category: About
 ---  
 #### 主要经历：
+
 |时间|经历|
 |:---|:---|
 |2011-2014|Anroid 手机应用研发|
 |2015-|Anroid OTT类应用研发|
 
 #### 个人技能：
+
 |技能/语言|经历|备注|
 |:---|:---|:------|
 |Android|精通|Java，Kotlin，JNI/C/C++|
