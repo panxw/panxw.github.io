@@ -2,20 +2,20 @@
 layout: page
 title: About
 category: About
----
-Panxw，80后码农，男，现居武汉。  
+---  
+#### 主要经历：
+|时间|经历|
+|:---|:---|
+|2011-2014|Anroid 手机应用研发|
+|2015-|Anroid OTT类应用研发|
 
-2011年毕业后一直从事Android终端应用研发，有3年手机App，7年OTT-App研发经历。  
-
-专注于Android原生Apk开发，技术栈涉及Java，Kotlin，Gralde，NDK，JNI等，负责过不少企业级Apk架构。  
-
-也参与过一些IOS，React Native，Flutter，微信小程序等项目开发，负责SDK或模块编码开发。  
-
-使用Java/Servlet/MyBatis，Python/Flask做过后台接口，或基于bjui做过管理后台。  
-
-了解一些金融量化编程知识，使用Python或MQL5，运用相关SDK做过信号监控。  
-
-改造过Jekyll模板，自定义过Jekyll栏目分页，标签的生成插件。  
-
-。。。
-
+#### 个人技能：
+|技能/语言|经历|备注|
+|:---|:---|:------|
+|Android|精通|Java，Kotlin，JNI/C/C++|
+|IOS|熟练|Object C|
+|React Native|熟练|Node JS|
+|Flutter|熟练|Dart|
+|Flask|熟练|Python|
+|MQL4/MQL5|熟练|C++|
+|Jekyll|熟练|html,javascript|
