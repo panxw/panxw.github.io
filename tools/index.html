@@ -1,28 +1,78 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>BASE64编码</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <script type="text/javascript" src="base64.js"></script>
-   <script type="text/javascript" src="des3.js"></script>
-</head>
-<body>
-<script type="text/javascript">
- 
-var str = "网址：http://www.sina.com.cn";
-document.write("原始字符串:</br>"+str);
-var base64 = BASE64.encoder(str);//返回编码后的字符 
-document.write("</br>BASE64后:</br>"+base64);
-//alert(base64);
-var unicode= BASE64.decoder(base64);//返回会解码后的字符串。  
-//alert(unicode);
-document.write("</br>还原:</br>"+unicode);
-//var str= "你好123hello";
-var key = "qXSdHWfbSZaaLeHBRhLgxBiG";
-//alert(decrypt_3des);
-var des3en = DES3.encrypt(key,str);
-document.write("</br>des3加密:</br>"+des3en);
- 
-document.write("</br>des3解密:</br>"+DES3.decrypt(key,des3en));
-</script>
- 
-</body>
+   <head>
+      <title>Tools</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <script type="text/javascript" src="base64.js"></script>
+      <script type="text/javascript" src="des3.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   </head>
+   <body>
+      <H1>BASE64</H1>
+      <label>Source String</label>:<br/>
+      <input type="text" size="40" id="base64_source" placeholder=""></input> &nbsp;
+      <button type="button" id="en_base64_btn">Submit</button><br/>
+      <div id="enc_base64_result"></div>
+      <br/>
+      <label>Crypt String</label>:<br/>
+      <textarea type="textarea" rows="4" cols="50" id="base64_encode" placeholder=""></textarea>
+      &nbsp;
+      <button type="button" id="dec_base64_btn">Submit</button>
+      <div id="dec_base64_result"></div>
+      <H1>DES3</H1>
+      <label>Key String</label>:<br/><input type="text" size="40" id="des3_key" placeholder=""></input><br/>
+      <label>Source String</label>:<br/><input type="text" size="40" id="des3_source" placeholder=""></input>&nbsp;
+      <button type="button" id="enc_des3_btn">Submit</button><br/>
+      <div id="enc_des3_result"></div>
+      <br/>
+      <label>Crypt String</label>:<br/>
+      <textarea type="textarea" rows="4" cols="50" id="des3_encode"></textarea>
+      &nbsp;
+      <button type="button" id="dec_des3_btn">Submit</button></input>
+      <div id="dec_des3_result"></div>
+      <script type="text/javascript">
+         $(function () {
+         	let encBase64Btn = $("#en_base64_btn");
+             encBase64Btn.click(e => {
+             	let source =  $("#base64_source").val();
+             	console.log("before:"+source)
+                 let ret = BASE64.encoder(source);
+                 console.log("after:"+ret)
+                 $("#enc_base64_result").text(ret);
+             });
+             
+             let decBase64Btn = $("#dec_base64_btn");
+             decBase64Btn.click(e => {
+             	let source =  $("#base64_encode").val();
+             	console.log("before:"+source)
+                 let ret = BASE64.decoder(source);
+                 console.log("after:"+ret)
+                 $("#dec_base64_result").text(ret);
+             });
+             
+         
+             let encDes3Btn = $("#enc_des3_btn");
+             encDes3Btn.click(e => {
+             	let source =  $("#des3_source").val();
+             	console.log("before:"+source)
+             	
+             	let key =  $("#des3_key").val();
+                 let ret = DES3.encrypt(key, source);
+                 console.log("after:"+ret)
+                 $("#enc_des3_result").text(ret);
+             });
+             
+             let decDes3Btn = $("#dec_des3_btn");
+             decDes3Btn.click(e => {
+             	let source =  $("#des3_encode").val();
+             	console.log("before:"+source)
+             	
+             	let key =  $("#des3_key").val();
+                 let ret = DES3.decrypt(key, source);
+                 console.log("after:"+ret)
+                 $("#dec_des3_result").text(ret);
+             });
+             
+         });
+      </script>
+   </body>
+</html>
